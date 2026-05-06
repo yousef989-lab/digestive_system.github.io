@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.backgroundColor = "black";
             document.getElementById('organs_title').style.color = "white";
         }
+        else if (document.getElementById('diagrams'))
+        {
+            document.body.style.backgroundColor = "white";
+        }
         else {
             document.body.style.backgroundColor = "black";
             document.body.style.color = "white";
